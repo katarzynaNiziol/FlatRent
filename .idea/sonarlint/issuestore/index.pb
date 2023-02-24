@@ -51,3 +51,9 @@ g
 W03-frontend/angular-ecommerce/src/app/components/product-list/product-list.component.ts,e\a\ead2cb8d0feb1f4bd8047facd4f6c9bc0ea3c123
 ‰
 Y03-frontend/angular-ecommerce/src/app/components/product-list/product-list.component.html,f\8\f897359a9e3e2675ea6cbd154aacc8d554d0ba9d
+c
+303-frontend/angular-ecommerce/src/app/app.module.ts,2\2\22f75b9b3434a2455623fd45428db8a64da50923
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
