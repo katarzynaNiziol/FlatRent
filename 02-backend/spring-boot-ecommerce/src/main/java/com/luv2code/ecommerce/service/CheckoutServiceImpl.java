@@ -9,7 +9,6 @@ import com.luv2code.ecommerce.entity.OrderItem;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
-import java.beans.Transient;
 import java.util.Set;
 import java.util.UUID;
 
@@ -21,10 +20,11 @@ public class CheckoutServiceImpl implements CheckoutService {
     public CheckoutServiceImpl(CustomerRepository customerRepository) {
         this.customerRepository = customerRepository;
     }
+
     @Override
     @Transactional
     public PurchaseResponse placeOrder(Purchase purchase) {
-         //retrieve the order info from dto
+        //retrieve the order info from dto
         Order order = purchase.getOrder();
 
         // generate tracking number
@@ -41,6 +41,16 @@ public class CheckoutServiceImpl implements CheckoutService {
 
         //populate customer with order
         Customer customer = purchase.getCustomer();
+
+        // check if this is an existing customer
+        String theEmail = customer.getEmail();
+
+        Customer customerFromDB = customerRepository.findByEmail(theEmail);
+
+        if (customerFromDB != null) {
+            customer = customerFromDB;
+        }
+
         customer.add(order);
 
         // save to the database
@@ -48,7 +58,7 @@ public class CheckoutServiceImpl implements CheckoutService {
 
         // return a response
 
-         return new PurchaseResponse(orderTrackingNumber);
+        return new PurchaseResponse(orderTrackingNumber);
     }
 
     private String generateOrderTrackingNumber() {
