@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { OktaAuthStateService, OKTA_AUTH, OktaAuthService } from '@okta/okta-angular';
+import { OktaAuthStateService, OKTA_AUTH} from '@okta/okta-angular';
 import { OktaAuth } from '@okta/okta-auth-js';
 
 @Component({

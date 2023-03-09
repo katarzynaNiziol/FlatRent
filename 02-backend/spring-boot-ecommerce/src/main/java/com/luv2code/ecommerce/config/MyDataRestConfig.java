@@ -1,7 +1,8 @@
 package com.luv2code.ecommerce.config;
 
 import com.luv2code.ecommerce.entity.*;
-import jakarta.persistence.EntityManager;
+
+import javax.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
