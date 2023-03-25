@@ -2,6 +2,7 @@ package com.luv2code.ecommerce.entity;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.mapping.ToOne;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -27,7 +28,7 @@ public class OrderItem {
     @Column(name="product_id")
     private Long productId;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "order_id")
     private Order order;
 

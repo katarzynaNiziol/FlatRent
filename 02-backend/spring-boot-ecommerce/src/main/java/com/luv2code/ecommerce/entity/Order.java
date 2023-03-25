@@ -42,13 +42,13 @@ public class Order {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "order")
     private Set<OrderItem> orderItems = new HashSet<>();
 
-    @ManyToOne
+    @OneToOne  // the only difference between original part
     @JoinColumn(name = "customer_id")
     private Customer customer;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id", referencedColumnName = "id")
-    private Address shippingAddress;
+    private Address address;
 
     public void add(OrderItem item) {
 
