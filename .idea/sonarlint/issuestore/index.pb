@@ -5,8 +5,6 @@ z
 J02-backend/spring-boot-ecommerce/src/main/resources/application.properties,1\9\19061d8a00f011ab216d16fa0d9e76605cc267c5
 ^
 .01-starter-files/db-scripts/01-create-user.sql,7\7\77e9880946e106dc2cdb858bb54fe40ee87e0af4
-X
-(02-backend/spring-boot-ecommerce/pom.xml,b\c\bc17dab59e379ff1fdd97f470761ff01ddb9de02
 a
 103-frontend/angular-ecommerce/src/assets/.gitkeep,b\e\be0102cfd3a6b77b7f2f0852bb5ab7bcf7840674
 b
@@ -57,8 +55,6 @@ k03-frontend/angular-ecommerce/src/app/components/product-category-menu/product-
 M03-frontend/angular-ecommerce/src/app/components/search/search.component.html,b\0\b090d4b2481593084e7833e1309b70c561c7b05d
 â
 Y03-frontend/angular-ecommerce/src/app/components/product-list/product-list.component.html,f\8\f897359a9e3e2675ea6cbd154aacc8d554d0ba9d
-â
-Y03-frontend/angular-ecommerce/src/app/components/cart-details/cart-details.component.html,e\b\eb8b4dab3c05205a3a6f8f859dda7f17a0da408d
 \
 ,03-frontend/angular-ecommerce/src/styles.css,9\6\96cd7272d4a0f413c9cbef0c22500733ddc6aadf
 á
@@ -95,8 +91,6 @@ p
 @03-frontend/angular-ecommerce/src/app/common/product-category.ts,0\e\0e7910485f8adeaea20c141752efd9ae5e76d33d
 â
 Y02-backend/spring-boot-ecommerce/src/main/java/com/luv2code/ecommerce/entity/Country.java,7\8\78702bd66f7819e5ebfcc7908e8fe3e27f3c0b80
-á
-W03-frontend/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts,9\a\9a1dcc4fd5ca53b1e7b3ef672e1667c07277c2ac
 ç
 ]03-frontend/angular-ecommerce/src/app/components/product-details/product-details.component.ts,c\5\c5d75795ff861885f46277650517785843918a0a
 ô
@@ -129,17 +123,3 @@ q
 A03-frontend/angular-ecommerce/src/app/services/product.service.ts,7\4\7427ddbe5a06b526bf8d729e085f6faa0a08cb1d
 Ö
 U03-frontend/angular-ecommerce/src/app/components/cart-status/cart-status.component.ts,4\1\4185fca1685c57379da45e3bd3188a75649ba22c
-Å
-Q03-frontend/angular-ecommerce/src/app/components/checkout/checkout.component.html,e\c\ecf42b39fb38a18072e7e3fe3c4de2706d012c5f
-ä
-Z02-backend/spring-boot-ecommerce/src/main/java/com/luv2code/ecommerce/entity/Customer.java,7\c\7ce8f92c40af664b313e91d85f14846b1cb65f79
-â
-Y02-backend/spring-boot-ecommerce/src/main/java/com/luv2code/ecommerce/entity/Product.java,a\2\a213e861260c221417b96acd56d8def36d6ef181
-
-O03-frontend/angular-ecommerce/src/app/components/checkout/checkout.component.ts,6\4\646b806a1ad6a70b287e040bad7536aab3f1dbae
-â
-Y02-backend/spring-boot-ecommerce/src/main/java/com/luv2code/ecommerce/entity/Address.java,9\3\936d3f61d4d19935fe65a6a70e8500698f6e3873
-ã
-[02-backend/spring-boot-ecommerce/src/main/java/com/luv2code/ecommerce/entity/OrderItem.java,8\2\821e324950cccd63dee7f99649854a633eda1c21
-á
-W02-backend/spring-boot-ecommerce/src/main/java/com/luv2code/ecommerce/entity/Order.java,7\0\70439747db1e5ffb9dce9f703dedd24e5735a8e2
