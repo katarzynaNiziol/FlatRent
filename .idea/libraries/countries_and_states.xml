@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="countries-and-states">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/00-starter-files/db-scripts/countries-and-states.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
