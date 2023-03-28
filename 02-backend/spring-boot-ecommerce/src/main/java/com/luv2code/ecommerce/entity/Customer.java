@@ -36,8 +36,6 @@ public class Customer {
     @Column(name = "birth_date")
     private String birthDate;
 
-    @Column(name = "PESEL")
-    private String PESEL;
 
     @Column(name = "id_card")
     private String idCard;

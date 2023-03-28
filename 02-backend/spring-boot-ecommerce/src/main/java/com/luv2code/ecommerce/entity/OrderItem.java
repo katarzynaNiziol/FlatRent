@@ -21,6 +21,7 @@ public class OrderItem {
     @Column(name="image_url")
     private String imageUrl;
 
+
     @Column(name="unit_price")
     private BigDecimal unitPrice;
 
@@ -28,7 +29,7 @@ public class OrderItem {
     @Column(name="product_id")
     private Long productId;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "order_id")
     private Order order;
 
